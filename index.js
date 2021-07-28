@@ -60,7 +60,7 @@ function gameEngine(){
     }
 
     //Moving the Snake
-
+    musicSound.play();
     for (let i = snakeArr.length - 2; i >= 0; i--)
     //i has been started from second box of the snake body, >= 0 is head of snake
     {      
